@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rocky Van David Del Rosario | Professional Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Rocky Van David Del Rosario</h1>
+      <p>Senior Crew</p>
+    </div>
+  </header>
+
+  <nav id="main-nav">
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="images/profile.jpg" alt="Rocky Van David Del Rosario" class="profile-img"/>
+        <div class="about-text">
+          <p>
+            Hi, I'm Rocky Van David Del Rosario — a purpose-driven individual committed to growth, service, and excellence.
+            I'm a 2nd-year student at STI College, currently working at Jollibee for 2 years and 6 months as a Senior Crew.
+            My work instilled in me strong values like integrity, discipline, and teamwork.
+          </p>
+          <p>
+            Outside of work and school, I'm passionate about fitness, particularly calisthenics and barbell training.
+            My lifelong goal is to glorify God through everything I do and to one day serve the country as a soldier in the Philippine Navy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">Inventory Management</div>
+        <div class="skill-item">POS Operation</div>
+        <div class="skill-item">Customer Service</div>
+        <div class="skill-item">Team Leadership</div>
+        <div class="skill-item">Basic IT Support</div>
+        <div class="skill-item">Time Management</div>
+        <div class="skill-item">Calisthenics & Fitness</div>
+        <div class="skill-item">Discipline & Integrity</div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/project1.jpg.jpg" alt="Stockman Custodian" />
+          <h3>Inventory System Data Entry and Management</h3>
+          <p>
+            As a Senior Crew member, I handle daily inventory encoding using our store’s inventory management system.
+            This includes accurately inputting stock data, verifying item counts, and ensuring alignment between physical and system records.
+            I utilize multiple software tools and POS terminals to monitor stock levels, generate reports, and support decision-making on ordering and wastage.
+            My role helps maintain the integrity of our data systems and ensures smooth back-end operations that support store efficiency and performance.
+          </p>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="images/project2.jpg.jpg" alt="Fund Custodian" />
+          <h3>Network and Maintenance Support</h3>
+          <p>
+            As a Senior Crew member, I take on key technical responsibilities to support our store’s operations.
+            One of my main tasks includes maintaining and troubleshooting our CCTV system, ensuring all cameras function correctly and that footage is securely stored.
+            I handle basic network and cable management for our surveillance and POS systems, ensuring consistent connectivity and uptime.
+            My role also includes coordinating with IT personnel during system upgrades or technical issues, helping to maintain security and operational efficiency in a fast-paced environment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Feel free to reach out for professional inquiries or opportunities.</p>
+
+      <div class="contact-methods">
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:daviddelrosario721@gmail.com" class="social-link" title="Email">
+            <i class="fas fa-envelope"></i> daviddelrosario721@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/rocky-van-david-del-rosario-5a599a333" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin"></i> LinkedIn Profile
+          </a>
+
+          <a href="https://www.facebook.com/david.del.rosario.ii" target="_blank" class="social-link">
+            <i class="fab fa-facebook"></i> Facebook (Message Me)
+          </a>
+
+          <div class="cv-download">
+            <a href="RockyDelRosario_CV.docx" download class="btn">
+              <i class="fas fa-file-download"></i> Download My CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Rocky Van David Del Rosario. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
